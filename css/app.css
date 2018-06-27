@@ -1,0 +1,306 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+body{
+    background-image: url(../imgs/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+.title1 
+{
+   padding-bottom: 40px;
+   text-align:center;
+   color: white;
+   font-size: 60px;
+   font-family: sans-serif;
+   background:-webkit-linear-gradient(left, #4d44ce 0%, #E04391 100%);
+   box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+
+}
+
+.style{
+	box-sizing: border-box;
+}
+
+.content {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background:lightgrey;
+    background-image: url(../imgs/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-head{
+    padding-left: 50px;
+    background-color: #4f4f4f;
+    border-bottom: 7px solid #f1b62c;
+}
+
+.big-div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
+    max-width: 620px;
+    border: 1px solid #f1b62c;
+    text-align: center;
+
+}
+
+.sign-top-div {
+    display: flex;
+}
+
+
+.sign-up-div-1 {
+    cursor: pointer;
+    background:#f1b62c;
+    border-bottom: 1px solid #f1b62c;
+    font-weight: 600;
+    color: #7d97ad;
+}
+.sign-up-div-2 {
+    flex: auto;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.sign-in-div-2  {
+    border-left: 1px solid #dbe2e8;
+}
+.sign-in-div-selected-1 {
+    cursor: default;
+    background-color:rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    color: white;
+
+}
+.sign-in-div-2 {
+    flex: auto;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.sign-down-div1 {
+    background-color:rgba(0, 0, 0, 0.8);
+
+    padding: 60px;
+}
+
+
+.header-form {
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 1.3;
+    color: white;
+    text-align: left;
+}
+
+.descrip-form {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #525c65;
+    max-width: 460px;
+    margin: 20px 0;
+    text-align: left;
+}
+.info-text {
+    margin-bottom: 20px;
+}
+
+.info-text-hidden {
+    display: none;
+}
+.info-text-success {
+    background-color: #15c26b;
+}
+.info-info-text {
+    padding: 20px 25px;
+    border-radius: 2px;
+    color: #f1b62c;
+    text-align: left;
+}
+
+.info-text > div + div {
+    margin-top: 20px;
+}
+
+.info-error {
+    background-color: #f04546;
+}
+
+.all-form-access {
+    margin: 25px 0 40px;
+}
+
+.form-access {
+    display: flex;
+
+}
+
+.form-access input[type=email], 
+.form-access input[type=text], 
+.form-access input[type=password], 
+.form-access button, 
+.form-access textarea {
+    width: 100%;
+}
+.access-text {
+    height: 44px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 301px;
+    border: 1px solid #dbe2e8;
+    font-size: 14px;
+    box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+    border-radius: 2px;
+    color: #2e3d49;
+}
+.access-text1 {
+    height: 44px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 350px;
+    border: 1px solid #dbe2e8;
+    font-size: 14px;
+    box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+    border-radius: 2px;
+    color: #2e3d49;
+}
+.access-text2 {
+    height: 44px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 383px;
+    border: 1px solid #dbe2e8;
+    font-size: 14px;
+    box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+    border-radius: 2px;
+    color: #2e3d49;
+}
+.top-head{
+    text-align: unset;
+    background-color: ##4f4f4f;
+}
+.form-access + .form-access {
+    margin-top: 20px;
+}
+
+.terms-privacy-policy {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #525c65;
+    max-width: 500px;
+    margin: 20px 0;
+    text-align: left;
+}
+.primary-button {
+    width: 100%;
+}
+.standard {
+    padding: 1.2em 4em;
+}
+.primary {
+    background: #f1b62c ;
+}
+.button {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.165em;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    transition: 0.2s box-shadow ease-in-out, 0.2s background-color ease-in-out, 0.2s border-color ease-in-out;
+    white-space: nowrap;
+}
+
+.botom-discrip {
+    color: #757c81;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 0;
+    text-align: left;
+}
+
+.social-button {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-provider{
+    width: 100%;
+    border: 1px solid #dbe2e8 !important;
+    color: #757c81;
+}
+
+
+
+
+a {
+    color: -webkit-linear-gradient(left, #4d44ce 0%, #E04391 100%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+html, body {
+    color: #525c65;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    line-height: 1;
+
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////////////////////*/
