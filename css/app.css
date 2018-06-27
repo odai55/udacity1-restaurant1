@@ -100,12 +100,12 @@ time, mark, audio, video {
 
 }
 .social-media{
-	background-image:url(../imgs/final.jpg);
+	background-image:url(../imgs/body/final.jpg);
 	height:800px;
 	background-size:cover;
 	color:#fff;
 	text-align:center;
-	font-size:40px;
+	font-size:30px;
 	padding:100px;
 	text-transform:capitalize;
 }
@@ -130,9 +130,7 @@ time, mark, audio, video {
 	margin-left:100px;
 	margin-bottom:50px;
 } 
-.social-media #footer-wrapper ul:first-of-type li:last-of-type{
-	margin-right:100px
-}
+
 .social-media #footer-wrapper ul:last-of-type{
 	font-size:55px;
 	font-weight:normal;
