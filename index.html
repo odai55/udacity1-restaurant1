@@ -1,9 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 <head>
-	<title></title>
+    <title>Udacity Resturant</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/app.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-
+    <section class="location">
+		<img src="imgs/Our Restaurant/table.jpg">
+		<p>
+			Eleven Madison Park is a fine dining resturant located in the hart of Italy. The restaurant overlooks one of the most<br> beautiful parks of Manhatten, Madison Square Park, and sits at the base of a historic Art Deco building on the corner<br> of 24th street and Madison Avenue. Located here since 1998, it just underwent a full-scale renovation<br> and redesign - during which the entire restaurant was moved to East Hampton for summer-long pop-up,<br>
+			EMP Summer House.
+		</p>
+		<p>
+			The retaurant has been owned by Chef Daniel Humm and Restaurateur Will Guidara since 2011 and<br> during the time it has evolved considerably, both in food and experience. Today, the restaurant<br> offers an eight to ten course menu in the main dining room, but guests can also visit the bar<br> for a more abberviated tasting menu, some light snacks, or simply for a cocktail or glass of wine.
+		</p>
+		<form>
+			<label>Search for restaurant</label><br><br>
+			<input type="text" name="search" placeholder="Italy">
+			<button type="button">search for</button>
+		</form>
+		<div class="map_and_location">
+			<div id="map"></div>
+			<p>Udacity restaurant<br>VIA SCHIAVONETTI, 426<br>00173 - ROME - Italy<br>+39 067235068<br>See on the map<br><br><br><br>Udacity restaurant<br>ROUTE OF THE COURSE 197 ANG LARGO<br>CHIGI 2-3 N&deg; 197<br>00187 - ROME - Italy<br>+39 3403552840<br>See on the map</p>
+		</div>
+    </section>
+    <section class="social-media">
+        <div id="footer-wrapper">
+            <h2>GET IN TOUCH</h2>
+            <ul>
+                <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                <li><i class="fas fa-envelope"></i> info@yourudacity.com</li>
+                <br><br>
+                <li><i class="fas fa-comments"></i> live chat</li><br>
+            </ul>
+            get social
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        <div class="line"></div>
+        &copy; all rights reserved.
+    </section>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Jc3PCku7X-GtE3Nn8TLnwAw54cY3n2s&callback=initMap">
+    </script>
 </body>
 </html>
