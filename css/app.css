@@ -31,12 +31,11 @@ body{
 }
 
 .style{
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .content {
     position: relative;
-    padding-top: 30px;
     padding-bottom: 100px;
     background:lightgrey;
     background-image: url(../imgs/1.jpg);
@@ -44,9 +43,37 @@ body{
     background-size: cover;
 }
 .top-head{
+    width: 100%;
     padding-left: 50px;
     background-color: #4f4f4f;
     border-bottom: 7px solid #f1b62c;
+    box-shadow: 0 0 35px #e6e6e6;
+    height: 90px;
+}
+.top-container{
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+.top-container a{
+    display: block;
+    padding: 12px 15px 0px;
+    float: left;
+}
+
+.my-menu{
+    color: white;
+    float: right;
+}
+
+.my-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.my-menu li {
+   float: left;
 }
 
 .big-div {
@@ -208,16 +235,11 @@ body{
     margin: 20px 0;
     text-align: left;
 }
-.primary-button {
-    width: 100%;
-}
-.standard {
-    padding: 1.2em 4em;
-}
-.primary {
-    background: #f1b62c ;
-}
+
+
 .button {
+    background: #f1b62c ;
+    padding: 1.2em 4em;
     border: none;
     border-radius: 4px;
     box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
@@ -236,6 +258,7 @@ body{
     text-transform: uppercase;
     transition: 0.2s box-shadow ease-in-out, 0.2s background-color ease-in-out, 0.2s border-color ease-in-out;
     white-space: nowrap;
+    width: 100%;
 }
 
 .botom-discrip {
