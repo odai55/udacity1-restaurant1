@@ -7,9 +7,10 @@
     box-sizing: border-box;
 } 
 body{
-    background-image: url(../imgs/1.jpg);
+    background-image: url(../img/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .app {
@@ -38,9 +39,20 @@ body{
     position: relative;
     padding-bottom: 100px;
     background:lightgrey;
-    background-image: url(../imgs/1.jpg);
+    background-image: url(../img/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.big-div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
+    max-width: 620px;
+    border: 1px solid #f1b62c;
+    text-align: center;
+
 }
 .top-head{
     width: 100%;
@@ -64,28 +76,37 @@ body{
 .my-menu{
     color: white;
     float: right;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .my-menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-right: 80px;
     overflow: hidden;
 }
 .my-menu li {
    float: left;
 }
 
-.big-div {
-    margin-left: auto;
-    margin-right: auto;
+.my-menu li a{
+    display: inline-block;
     margin-top: 20px;
-    box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
-    max-width: 620px;
-    border: 1px solid #f1b62c;
-    text-align: center;
-
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #4f4f4f;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
 }
+
+.my-menu li a:hover{
+    border: 1px solid #f1b62c;
+    border-radius: 50px;
+}
+
 
 .sign-top-div {
     display: flex;
@@ -98,6 +119,7 @@ body{
     border-bottom: 1px solid #f1b62c;
     font-weight: 600;
     color: #7d97ad;
+    border-left: 1px solid #f1b62c;
     flex: auto;
     padding: 20px;
     text-align: center;
@@ -124,8 +146,9 @@ body{
 
 .sign-down-div1 {
     background-color:rgba(0, 0, 0, 0.8);
-
     padding: 60px;
+    border-left: 1px solid #f1b62c;
+    border-bottom: 1px solid #f1b62c;
 }
 
 
@@ -190,7 +213,7 @@ body{
     height: 44px;
     box-sizing: border-box;
     padding-left: 15px;
-    padding-right: 301px;
+    padding-right: 310px;
     border: 1px solid #dbe2e8;
     font-size: 14px;
     box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
@@ -259,8 +282,12 @@ body{
     transition: 0.2s box-shadow ease-in-out, 0.2s background-color ease-in-out, 0.2s border-color ease-in-out;
     white-space: nowrap;
     width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.8)
 }
-
+.button:hover{
+    border: 1px solid #fff;
+    background-color: orange;
+}
 .botom-discrip {
     color: #757c81;
     line-height: 1.4;
