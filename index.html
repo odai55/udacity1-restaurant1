@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+<title>Boking Online</title>
+</head>
+<body style="padding-left: 0px;">
+
+    
+  
+  <div class="content">
+    <div class="top-head">
+      <div class="top-container">
+        <a href="#">
+          <img src="imgs\logo.png">
+        </a>
+      </div>
+      <div class="my-menu">
+        <ul>
+          <li>Menu</li>
+          <li>Our Restaurant</li>
+          <li>Contact</li>
+          <li>Reservation</li>
+        </ul>
+      </div>
+    </div>
+    <div class="big-div">
+      <div class="sign-top-div">
+        <div id="sign-up" class="sign-up-div-1"onclick="signUp()">Delevry Order</div>
+        <div id="sign-in" class="sign-in-div-2"onclick="signIn()">Booking Online</div>
+      </div>
+      <div class="sign-down-div1 sign-down-div2">
+        <div>
+          <div>
+            <div>
+              <div id="move1"class="header-form"> Booking online</div>
+              
+              <div class="info-text">
+                <div class="info-text-success info-info-text info-text-hidden"></div>
+                <div class="info-error info-info-text info-text-hidden"></div>
+              </div>
+              <form>
+                <div class="all-form-access">
+                  <div class="form-access">
+                    <input type="fullName" placeholder="Name" class="access-text">
+                  </div>
+                  <div class="form-access">
+                    <input type="email" placeholder="Your E-Mail Address" class="access-text">
+                  </div>
+                  <div class="form-access">
+                    <input type="date" placeholder="Date" class="access-text1">
+                  </div>
+                  <div class="form-access">
+                    <input type="time" placeholder="Time" class="access-text2">
+                  </div>
+                  <div class="form-access">
+                    <input type="number" placeholder="Number Of Persons" class="access-text">
+                  </div>
+                  
+                </div>
+                <button type="button"id="butt" class="button" style="cursor: pointer;">Reservation</button>
+              </form>
+            </div>
+
+          </div>
+          <div>
+            <form method="post" action="">
+              <input type="hidden" name="next" value="">
+              <input type="hidden" name="provider" value>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
