@@ -20,7 +20,7 @@ body{
     position: relative;
     padding-bottom: 100px;
     background:lightgrey;
-    background-image: url(../imgs/1.jpg);
+    background-image: url(../img/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
